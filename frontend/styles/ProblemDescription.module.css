@@ -1,0 +1,110 @@
+.problem__desc__wrapper {
+  height: 100vh;
+  color: #fff;
+  padding: 1rem 2rem 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #282828;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-family: "menlo";
+  overflow-y: scroll;
+  font-weight: 500;
+}
+.problem__desc__wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.heading__desc {
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.2rem;
+}
+.problem__desc__wrapper::-webkit-scrollbar-thumb {
+  border-radius: 10rem;
+}
+.problem__desc__wrapper button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.problem__desc__wrapper button svg {
+  height: 2.4rem;
+  width: auto;
+  vertical-align: top;
+}
+.problem__cnt p {
+  font-size: 1.8rem;
+}
+.problem__statement {
+  padding: 2rem 0;
+}
+.examples__wrapper > * {
+  margin: 3rem 0;
+  padding: 2.2rem 1.6rem;
+  background-color: hsla(0, 0%, 100%, 0.07);
+  border-color: rgba(247, 250, 255, 0.12);
+  color: rgba(239, 241, 246, 0.75);
+  border-radius: 1rem;
+}
+.problem__statement pre {
+  width: 100%;
+  overflow: scroll;
+}
+.problem__statement img {
+  width: 30rem;
+  margin-top: 2rem;
+}
+.problem__statement pre::-webkit-scrollbar {
+  width: 0;
+  height: 1rem;
+}
+.problem__statement pre::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+}
+.examples__wrapper img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.examples__wrapper code {
+  background-color: transparent !important;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.examples__wrapper code strong {
+  color: #fff;
+  text-transform: capitalize;
+  padding-right: 1rem;
+}
+.example__heading {
+  color: #fff;
+  font-weight: 600;
+  transform: translateY(-0.8rem);
+}
+.constraints__wrapper {
+  padding: 0 1rem;
+}
+.problem__statement li {
+  margin: 1rem 0;
+  font-size: 1.6rem !important;
+  list-style: none;
+}
+.constraints__wrapper li {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+.color__active {
+  fill: #2dbb5d;
+}
+.btn__ctx {
+  display: flex;
+  align-items: center;
+  font-size: 1.65rem;
+  background-color: transparent !important;
+  font-weight: 500;
+}
+.star__active {
+  fill: red;
+}

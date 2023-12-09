@@ -1,0 +1,47 @@
+.logo__wrap {
+  width: 100%;
+  height: 100%;
+}
+.logo__wrap img {
+  height: 100%;
+  width: auto;
+  transform: scale(1.4) translateY(0.3rem);
+}
+.center__link {
+}
+.center__link button {
+  background-color: transparent;
+  font-size: 1.6rem;
+  gap: 1rem;
+}
+.center__link button:hover {
+  background-color: transparent;
+}
+.arrow__btn {
+  margin-left: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #fff;
+}
+.arrow__btn svg {
+  width: 1.6rem !important;
+  height: auto;
+  vertical-align: middle;
+}
+.center__link button svg {
+  width: 2rem;
+  height: auto;
+  vertical-align: middle;
+}
+.link,
+.link > a {
+  font-size: 1.6rem;
+}
+.link svg {
+  width: 2.6rem;
+  height: auto;
+  vertical-align: middle;
+}
+.link:hover,
+.link:active {
+  background-color: transparent !important;
+}

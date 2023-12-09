@@ -1,0 +1,56 @@
+[
+  {
+    "cover": "https://assets.leetcode.com/study_plan_v2/top-interview-150/cover",
+    "highlight": "Must-do List for Interview Prep",
+    "name": "Top Interview 150",
+    "onGoing": false,
+    "premiumOnly": false,
+    "questionNum": 150,
+    "slug": "top-interview-150"
+  },
+  {
+    "cover": "https://assets.leetcode.com/study_plan_v2/leetcode-75/cover",
+    "highlight": "Ace Coding Interview with 75 Qs",
+    "name": "LeetCode 75",
+    "onGoing": false,
+    "premiumOnly": false,
+    "questionNum": 75,
+    "slug": "leetcode-75"
+  },
+  {
+    "cover": "https://assets.leetcode.com/study_plan_v2/top-sql-50/cover",
+    "highlight": "Crack SQL Interview in 50 Qs",
+    "name": "SQL 50",
+    "onGoing": false,
+    "premiumOnly": false,
+    "questionNum": 50,
+    "slug": "top-sql-50"
+  },
+  {
+    "cover": "https://assets.leetcode.com/study_plan_v2/30-days-of-javascript/cover",
+    "highlight": "Learn JS Basics with 30 Qs",
+    "name": "30 Days of JavaScript",
+    "onGoing": false,
+    "premiumOnly": false,
+    "questionNum": 35,
+    "slug": "30-days-of-javascript"
+  },
+  {
+    "cover": "https://assets.leetcode.com/study_plan_v2/amazon-spring-23-high-frequency/cover",
+    "highlight": "Practice Amazon 25 Recently Asked Qs",
+    "name": "Amazon Spring '23 High Frequency",
+    "onGoing": false,
+    "premiumOnly": false,
+    "questionNum": 25,
+    "slug": "amazon-spring-23-high-frequency"
+  },
+  {
+    "cover": "https://assets.leetcode.com/study_plan_v2/dynamic-programming/cover",
+    "highlight": "10 Essential DP Patterns",
+    "name": "Dynamic Programming",
+    "onGoing": false,
+    "premiumOnly": false,
+    "questionNum": 50,
+    "slug": "dynamic-programming"
+  }
+]

@@ -1,0 +1,122 @@
+.topbar {
+  padding: 1rem;
+  width: 100%;
+  height: 6rem;
+  background-color: #282828;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.topbar button:enabled {
+  background-color: transparent !important;
+}
+.topbar > div {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.topbar button {
+  background-color: transparent;
+}
+.topbar button svg {
+  height: 2.4rem;
+  width: auto;
+  vertical-align: top;
+}
+.editor {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow: hidden;
+}
+.editor > div {
+  height: 100%;
+}
+.console__desc {
+  text-transform: capitalize;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.console {
+  position: relative;
+  background-color: #282828;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.inner__console {
+  height: max-content !important;
+  overflow-y: scroll;
+  padding-bottom: 1rem;
+}
+
+.console__desc hr {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -30%;
+  width: 100%;
+}
+.test__cases_wrapper {
+  gap: 2rem;
+}
+.test__cases_wrapper button {
+  font-size: 1.6rem;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+}
+.cases__cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.cases__cnt p {
+  font-size: 1.6rem;
+}
+.text__case {
+  background-color: #3e3e3e;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+/* .test__cases_wrapper button:enabled {
+  background-color: transparent !important;
+} */
+.active {
+  background-color: #464646 !important;
+}
+.action__bar {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: flex-end;
+  background-color: #303030;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.inner__action__bar {
+}
+.inner__action__bar button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+}
+.btn__run {
+  background-color: #464646;
+  color: #fff;
+
+  margin-right: 1rem;
+}
+.btn__run:enabled {
+  background-color: #464646;
+}
+.btn__sbmt {
+  background-color: #3ba25f;
+  color: #fff;
+}
+.btn__sbmt:enabled {
+  background-color: #3ba25f !important;
+}
