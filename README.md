@@ -1,18 +1,49 @@
-LeetCode Clone
-Description
-This project is a clone of the popular coding interview preparation platform, LeetCode. It provides a platform for users to practice coding problems, improve their problem-solving skills, and prepare for technical interviews.
+ <h1>LeetCode Clone</h1>
 
-Features
-Problem Repository: Browse a comprehensive collection of coding problems categorized by difficulty level, topic, and tags.
-User Authentication: Sign up and log in securely to access personalized features such as saving favorite problems and tracking progress.
-Code Editor: Write and test code solutions directly within the platform using an integrated code editor with syntax highlighting and code execution.
-Discussion Forum: Engage with the community by asking questions, sharing insights, and discussing problem-solving strategies in dedicated problem discussion threads.
-Leaderboard: Compete with other users and track your progress on the leaderboard based on solved problems, accuracy, and speed.
-Bookmark Problems: Save favorite problems for later review or practice.
-Technologies Used
-Frontend: HTML, CSS, JavaScript, React.js
-Backend: Node.js, Express.js, MongoDB
-Authentication: JSON Web Tokens (JWT)
-Code Editor: Ace Editor
-Database: MongoDB Atlas
-Version Control: Git, GitHub
+ <p>Welcome to the LeetCode Clone project! This project is a simplified version of LeetCode, aimed at providing a platform for practicing coding problems.</p>
+
+ <h2>Features</h2>
+    <ul>
+        <li>Practice coding problems</li>
+        <li>Simple user authentication</li>
+        <li>Basic code editor</li>
+    </ul>
+
+ <h2>Installation</h2>
+    <p>To run this project locally, follow these steps:</p>
+    <ol>
+        <li>Clone the repository:</li>
+    </ol>
+    <code>git clone https://github.com/harpreetsinghsandhu021/leetcode-clone.git</code>
+    <ol start="2">
+        <li>Navigate to the project directory:</li>
+    </ol>
+    <code>cd leetcode-clone</code>
+    <ol start="3">
+        <li>Install dependencies:</li>
+    </ol>
+    <code>npm install</code>
+    <ol start="4">
+        <li>Start the server:</li>
+    </ol>
+    <code>npm run dev</code>
+    <p>The project will be running at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+
+<h2>Usage</h2>
+    <p>To use the LeetCode Clone:</p>
+    <ol>
+        <li>Sign up for an account or log in if you already have one.</li>
+        <li>Explore the available coding problems.</li>
+        <li>Select a problem and write your solution in the provided code editor.</li>
+        <li>Submit your solution to see if it passes the test cases.</li>
+    </ol>
+
+<h2>Contributing</h2>
+    <p>If you'd like to contribute to this project:</p>
+    <ol>
+        <li>Fork the repository.</li>
+        <li>Create a new branch (<code>git checkout -b feature/my-feature</code>).</li>
+        <li>Make your changes and commit them (<code>git commit -am 'Add new feature'</code>).</li>
+        <li>Push to the branch (<code>git push origin feature/my-feature</code>).</li>
+        <li>Create a new pull request.</li>
+    </ol>
